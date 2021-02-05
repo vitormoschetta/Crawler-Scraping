@@ -27,8 +27,14 @@ No entanto, para realizar o _Scrapping_, você primeiro teria que fazer algum ti
 O processo de _Crawling_ também envolve certo grau de _Scraping_, como salvar todas as palavras-chave, as imagens e os URLs da página web, por exemplo. 
 
 Logo, podemos ver com frequência o uso dessas duas estratégias agindo em conjunto.
-
+<br>
+<br>
 
 ## Resumindo
 Resumindo, o _Crawling_ seria geralmente o que o Google, o Yahoo, o Bing etc. fazem, procurando qualquer tipo de informação. 
 Já o _Scraping_ é essencialmente direcionado a sites específicos para dados específicos, com o objetivo de extrair esses dados para algum outro meio. 
+<br>
+<br>
+
+## Bloqueio
+Existem métodos que alguns sites usam para evitar a raspagem da web, como detectar e proibir bots de rastrear (visualizar) suas páginas. Em resposta, existem sistemas de raspagem da Web que dependem do uso de técnicas em análise do DOM, visão computacional e processamento de linguagem natural para simular a navegação humana para permitir a coleta de conteúdo de página da Web para análise off-line.
