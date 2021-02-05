@@ -53,7 +53,7 @@ namespace web_scraper.Controllers
             Regex rgx = new Regex(pattern);
             string result = rgx.Replace(text, "");
 
-            return result;
+            return text;
         }
 
 
@@ -106,6 +106,25 @@ namespace web_scraper.Controllers
             }           
 
             return phones;
+        }
+
+
+        [HttpGet]
+        public async Task<dynamic> GetPhones04(string url = "http://www.rondonia.ro.gov.br/portal/contato/")
+        {
+            var config = Configuration.Default.WithDefaultLoader();
+            var context = BrowsingContext.New(config);
+            var document = await context.OpenAsync(url);
+
+            var index = document.DocumentElement.OuterHtml.IndexOf("Telefone");
+            var text = document.DocumentElement.OuterHtml.Substring(index, 500);
+
+            var list = from r in text                            
+                .Split("<td style=\"text-align:right;width:100px\">")
+                select StringManipulate.OnlyNumbers(r);                      
+
+            return list;
+
         }
     }
 }
