@@ -28,5 +28,7 @@ O processo de _Crawling_ também envolve certo grau de _Scraping_, como salvar t
 
 Logo, podemos ver com frequência o uso dessas duas estratégias agindo em conjunto.
 
+
+## Resumindo
 Resumindo, o _Crawling_ seria geralmente o que o Google, o Yahoo, o Bing etc. fazem, procurando qualquer tipo de informação. 
 Já o _Scraping_ é essencialmente direcionado a sites específicos para dados específicos, com o objetivo de extrair esses dados para algum outro meio. 
