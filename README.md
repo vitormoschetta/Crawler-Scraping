@@ -38,3 +38,8 @@ Já o _Scraping_ é essencialmente direcionado a sites específicos para dados e
 
 ## Bloqueio
 Existem métodos que alguns sites usam para evitar a raspagem da web, como detectar e proibir bots de rastrear (visualizar) suas páginas. Em resposta, existem sistemas de raspagem da Web que dependem do uso de técnicas em análise do DOM, visão computacional e processamento de linguagem natural para simular a navegação humana para permitir a coleta de conteúdo de página da Web para análise off-line.
+<br>
+<br>
+
+
+###### Veja mais nos README.md dos subdiretórios..
