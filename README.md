@@ -1,4 +1,4 @@
-# Web crawler and web scraping
+# Web crawler and web scraper
 
 ## Web Crawler / Rastreador da Web
 
@@ -19,7 +19,7 @@ Dá-se o nome de _Web Scraping_, portanto, o processo de extração desses dados
 <br>
 <br>
 
-### Clareando..
+### Crawling and Scraping
 Basicamente, o _Crawler_ cria uma cópia do que está lá e o _Scraping_ extrai dados específicos para análise, ou para criar algo novo. 
 
 No entanto, para realizar o _Scrapping_, você primeiro teria que fazer algum tipo de _Crawling_ para encontrar as informações que você precisa. 
